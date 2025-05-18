@@ -1,0 +1,24 @@
+name: image_to_pdf_app
+description: "A Flutter application to convert images to PDF with multiple image support, themes, and sharing."
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+version: 1.0.2+3 # Increment as you add features
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Ensure this is compatible with your Flutter/Dart SDK version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2      # Or latest version from pub.dev
+  pdf: ^3.10.8              # Or latest version from pub.dev
+  path_provider: ^2.1.3     # Or latest version from pub.dev
+  open_file: ^3.3.2         # Or latest version from pub.dev
+  shared_preferences: ^2.2.3 # Or latest version from pub.dev
+  share_plus: ^9.0.0        # Or latest version from pub.dev
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
